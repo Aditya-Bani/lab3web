@@ -7,13 +7,13 @@
     </head>
     <body>
         <header>
-            <h1>Membuat Form</h1>
+            <h1>Pendaftaran Peserta Didik Baru</h1>
         </header>
     </body>
 </html>
 <form action="proses.php" method="post">
     <fieldset>
-        <legend>Data Pelanggan</legend>
+        <legend>Data Siswa</legend>
         <p>
             <label for="nama">Nama</label>
             <input type="text" id="nama" name="nama">
@@ -23,6 +23,17 @@
             <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
         </p>
         <p>
+        <body>
+        <label>Agama</label>
+        <select name='agama'>
+            <option value='islam'>Islam</option>
+            <option value='kristen'>Kristen</option>
+            <option value='katholik'>Katholik</option>
+            <option value='hindu'>Hindu</option>
+            <option value='Budha'>Budha</option>
+            </select>
+        </body>
+        </p>
             <label>Jenis Kelamin</label>
             <input id="jk_l" type="radio" name="kelamin" value="L" /><label
             for="jk_l">Laki-laki</label>
