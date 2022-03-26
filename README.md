@@ -389,4 +389,4 @@ form input[type="submit"] {
 ```
 
 Hasil codingan dari kode diatas, maka aka menjadi output seperti gambar berikut
-![img23](img/22.png)
+![img23](img/22.PNG)
