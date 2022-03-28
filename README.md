@@ -5,7 +5,7 @@
 
 ### Langkah-langkah praktikum
 Membuka Text Editor, disini saya menggunakan Visual Studio Code
-![img0](img/1.PNG)
+![img0](assets/img/1.PNG)
 
 Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut.
 ```
@@ -24,7 +24,7 @@ Persiapan membuat dokumen HTML dengan nama file lab3_list.html seperti berikut.
 </html>
 ```
 
-![img1](img/1.1.PNG)
+![img1](assets/img/1.1.PNG)
 
 ### Membuat Ordered List
 Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
@@ -39,11 +39,11 @@ Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
 </section>
 ```
 
-![img2](img/2.PNG)
+![img2](assets/img/2.PNG)
 
 Output
 
-![img3](img/3.PNG)
+![img3](assets/img/3.PNG)
 
 ### Membuat Unorderd List
 Kemudian tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada 
@@ -59,11 +59,11 @@ section unordered-list, seperti berikut.
 </section>
 ```
 
-![img4](img/4.PNG)
+![img4](assets/img/4.PNG)
 
 Output
 
-![img5](img/5.PNG)
+![img5](assets/img/5.PNG)
 
 ### Membuat Description List
 Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorderd-list.
@@ -83,11 +83,11 @@ Kemudian tambahkan kode untuk membuat description list setelah deklarasi unorder
 </section>
 ```
 
-![img6](img/6.PNG)
+![img6](assets/img/6.PNG)
 
 Output
 
-![img7](img/7.PNG)
+![img7](assets/img/7.PNG)
 
 ### Membuat Tabel
 Buat file baru dengan nama lab3_tabel.html seperti berikut.
@@ -107,7 +107,7 @@ Buat file baru dengan nama lab3_tabel.html seperti berikut.
 </html>
 ```
 
-![img8](img/2.1.PNG)
+![img8](assets/img/2.1.PNG)
 
 ```
 <table border="1" cellpadding="6" cellspacing="0">
@@ -136,7 +136,7 @@ Buat file baru dengan nama lab3_tabel.html seperti berikut.
 </table>
 ```
 
-![img9](img/8.PNG)
+![img9](assets/img/8.PNG)
 
 ### Mengatur Margin dan Padding
 Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan 
@@ -145,11 +145,11 @@ cellspacing pada tag table.
 <table border="1" cellpadding="4" cellspacing="0">
 ```
 
-![img10](img/9.PNG)
+![img10](assets/img/9.PNG)
 
 Output
 
-![img11](img/10.PNG)
+![img11](assets/img/10.PNG)
 
 ### Menggabungkan Sell Data
 Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk 
@@ -182,11 +182,11 @@ horizontal).
 </table>
 ```
 
-![img12](img/11.PNG)
+![img12](assets/img/11.PNG)
 
 Output
 
-![img13](img/12.PNG)
+![img13](assets/img/12.PNG)
 
 ### Membuat Form
 Buat file baru dengan nama lab3_form.html seperti berikut
@@ -206,7 +206,7 @@ Buat file baru dengan nama lab3_form.html seperti berikut
 </html>
 ```
 
-![img14](img/3.1.PNG)
+![img14](assets/img/3.1.PNG)
 
 Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti berikut:
 ```
@@ -233,11 +233,11 @@ Kemudian selanjutnya tambahkan kode untuk membuat tabel sederhana seperti beriku
 </form>
 ```
 
-![img15](img/13.PNG)
+![img15](assets/img/13.PNG)
 
 Output
 
-![img16](img/15.PNG)
+![img16](assets/img/15.PNG)
 
 ### Menambahkan Style Pada Form
 Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut.
@@ -260,11 +260,11 @@ form input[type="submit"] {
 </style>
 ```
 
-![img17](img/16.PNG)
+![img17](assets/img/16.PNG)
 
 Output
 
-![img18](img/17.PNG)
+![img18](assets/img/17.PNG)
 
 
 ## Pertanyaan Dan Tugas
@@ -388,4 +388,4 @@ select {
 ```
 
 Output
-![img19](img/output.png)
+![img19](assets/img/output.png)
