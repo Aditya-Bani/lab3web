@@ -271,4 +271,121 @@ Output
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 
 ## Jawaban
-Dropdown Menu
+1. HTML
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form dropdown & Listbox with multiple selection</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="header">
+      <div>
+        <img class="logo" src="assets/img/logoupb.png">
+      </div>
+      <div>
+        <h1>Form UPB</h1>
+      </div>
+    </div>
+    <form action="proses.php" method="post">
+      <fieldset>
+        <legend>Data Mahasiswa</legend>
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama">
+        <label for="nim">NIM</label>
+        <input type="text" id="nim" name="nim">
+        <label for="jurusan">Jenis Kelamin</label>
+        <input id="jk_l" type="radio" name="kelamin" value="L" />
+        <label for="jk_l">Laki-laki</label>
+        <input id="jk_p" type="radio" name="kelamin" value="P" />
+        <label for="jk_p">Perempuan</label>
+        <br>
+        <br>
+        <label for="jurusan">Jurusan(Dropdown)</label>
+        <select name="jurusan">
+          <option value="" selected="selected">--Pilih Jurusan--</option>
+          <option value="ti">Teknik Informatika</option>
+          <option value="ts">Teknik Sipil</option>
+          <option value="mj">Manajemen</option>
+        </select>
+        <br>
+        <label for="jurusan2">Jurusan (multiple selection)</label>
+        <select multiple name="drawfs" id="jurusan">
+          <option value="ti">Teknik Informatika</option>
+          <option value="ts">Teknik Sipil</option>
+          <option value="mj">Manajemen</option>
+        </select>
+        <br>
+        <label for="alamat">Alamat</label>
+        <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+        <p>
+          <input type="submit" value="Daftar">
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
+```
+
+2. CSS STYLE
+```
+body{
+	margin: 2% auto;
+	width: 40%;
+	font-family: arial;
+	font-size: 17px;
+	line-height: 25px;
+}
+.header{
+	display: flex;
+	align-items: center;	
+	justify-content: flex-start;
+}
+.logo{
+	width: 110px;
+}
+form > label {
+	display: inline-block;
+    width: 100px;
+}
+form input[type="text"],
+form select, 
+form textarea { 
+	border: 1px solid #197a43;
+	width: 100%;
+  padding: 6px 10px;
+  margin: 3px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+form input[type="submit"] {
+  border: 5px solid #04AA6D;
+	background-color: #04AA6D; 
+	color: #ffffff;
+	padding: 5px 15px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+select {
+  width: 100%;
+  height: 30px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+}
+#jurusan{
+	height: 60px;
+}
+@media only screen and (max-width: 760px) {
+  body {
+    width: 90%;
+  }
+}
+```
+
+Output
+![img19](img/output.png)
